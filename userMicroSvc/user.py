@@ -10,13 +10,13 @@ CORS(app)
 
 
 firebaseConfig = {
-    "apiKey": "AIzaSyDKzB4d0VpYTuR8dFQMZwt4rhRDb-rnXAc",
-    "authDomain": "pyrebase-trial-ed7d4.firebaseapp.com",
-    "databaseURL": "https://pyrebase-trial-ed7d4-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "projectId": "pyrebase-trial-ed7d4",
-    "storageBucket": "pyrebase-trial-ed7d4.appspot.com",
-    "messagingSenderId": "512195238724",
-    "appId": "1:512195238724:web:055ca67e9e1f7dfeac9511"
+    "apiKey": "your api key",
+    "authDomain": "your auth domain",
+    "databaseURL": "your realtime database url",
+    "projectId": "your project id",
+    "storageBucket": "your storage bucket",
+    "messagingSenderId": "your messaging sender id or smth",
+    "appId":"your app id"
 }
 
 firebase = pb.initialize_app(firebaseConfig)
